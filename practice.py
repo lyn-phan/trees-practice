@@ -1,4 +1,4 @@
-from test import testEqual
+# from test import testEqual
 
 def buildTree(r):
     return [r, [], []]
@@ -32,7 +32,11 @@ def getRightChild(root):
     return root[2]
     
 
-ttree = buildTree()
-testEqual(getRootVal(getRightChild(ttree)),'c')
-testEqual(getRootVal(getRightChild(getLeftChild(ttree))),'d')
-testEqual(getRootVal(getRightChild(getRightChild(ttree))),'f')
+ttree = buildTree('a')
+(getRootVal(getRightChild(ttree)),'c')
+(getRootVal(getRightChild(getLeftChild(ttree))),'d')
+(getRootVal(getRightChild(getRightChild(ttree))),'f')
+
+# testEqual(getRootVal(getRightChild(ttree)),'c')
+# testEqual(getRootVal(getRightChild(getLeftChild(ttree))),'d')
+# testEqual(getRootVal(getRightChild(getRightChild(ttree))),'f')
