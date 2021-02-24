@@ -53,7 +53,8 @@ class Binary_Tree():
             else:
                 nodes_to_visit.extend([current.left, current.right])
                 print(nodes_to_visit)
-[3:03 PM]
+
+
 
 class Binary_Tree():
 
