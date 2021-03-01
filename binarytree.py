@@ -6,7 +6,7 @@ class Binary_Node():
         self.data = data
         self.left = left
         self.right = right
-[3:03 PM]
+
 
 class Binary_Tree():
 
