@@ -51,6 +51,7 @@ class Solution():
             value1 = sys.maxsize if l1 is None else l1.data
             value2 = sys.maxsize if l2 is None else l2.data
             # create variables to assign to each node on each linked list
+            #max size = maximum number python supports
             if value1 < value2:
                 if prev is not None:
                     #if we are not at the start of the list
